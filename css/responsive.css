@@ -7,9 +7,7 @@
 	min-width: 0;
 }
 
-.container-project1,
-.container-project2,
-.container-project3 {
+.container-project {
 	min-width: 0;
 }
 
@@ -117,6 +115,7 @@
         height: 220px;
         margin-top: 160px;
     }
+    
 }
 
 @media (max-width: 1250px)  {
@@ -176,7 +175,7 @@
         font-size: 15px;
     }
 
-    .container-project1, .container-project2, .container-project3 {
+    .container-project{
         width: 100%;
         height: auto;
     }
