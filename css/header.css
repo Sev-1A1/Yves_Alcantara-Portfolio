@@ -3,8 +3,8 @@
 header {
     background-color: #fcfbfb;
     color: rgb(5, 5, 5);
-    padding: auto;
-    margin: auto;
+    padding: 0;
+    margin: 0;
     border-radius: 30px;
     border: 2px solid #292828;
     filter: drop-shadow(0 0 3px #e9dcdc);
@@ -14,7 +14,7 @@ header {
     height: 60px;
     top: 20px;
     left: 25%;
-    z-index: 200;
+    z-index: 100;
 }    
 
 .header-list {
@@ -35,9 +35,6 @@ header {
     font-family: humanist, sans-serif;
     color: rgb(10, 10, 10);
     text-transform: uppercase;
-  
-    
-  
 }
 
 .header-list a {
